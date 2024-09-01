@@ -7,7 +7,7 @@ st.title(" Twitter Sentiment Analysis")
 
 #load model 
 
-model = pickle.load(open('C:\Users\91869\OneDrive\Desktop\streamlit\twitterSentiment\twitter_sentiment.pkl' ,'rb'))
+model = pickle.load(open(r'C:\Users\91869\OneDrive\Desktop\streamlit\twitterSentiment\twitter_sentiment.pkl', 'rb'))
 
 tweet = st.text_input("Enter your Tweet")
 
